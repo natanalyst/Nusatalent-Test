@@ -1,0 +1,240 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC001 - Verify_5DayForecast_Response,,,,08-05-2025 08:10:15,08-05-2025 08:10:19,4.115s,PASSED
+,,,,,,,
+Test Cases/Verify_5DayForecast_Response,,,,08-05-2025 08:10:15,08-05-2025 08:10:19,3.730s,PASSED
+"response = sendRequest(findTestObject(""forecast weather jakarta""))",,,,08-05-2025 08:10:16,08-05-2025 08:10:19,2.693s,PASSED
+requestBody = getBodyContent().getText(),,,,08-05-2025 08:10:19,08-05-2025 08:10:19,0.065s,PASSED
+"logInfo(""JSON Request Body:
+"" + requestBody)",,,,08-05-2025 08:10:19,08-05-2025 08:10:19,0.053s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,08-05-2025 08:10:19,08-05-2025 08:10:19,0.022s,PASSED
+"logInfo(""Status code is 200 OK"")",,,,08-05-2025 08:10:19,08-05-2025 08:10:19,0.003s,PASSED
+"verifyElementPropertyValue(response, ""city.name"", ""Jakarta"")",,,,08-05-2025 08:10:19,08-05-2025 08:10:19,0.105s,PASSED
+"logInfo(""City Name: "" + getElementPropertyValue(response, ""city.name""))",,,,08-05-2025 08:10:19,08-05-2025 08:10:19,0.045s,PASSED
+"expectedSchema = ""
+{
+""$schema"": ""http://json-schema.org/draft-07/schema#"",
+""type"": ""object"",
+""properties"": {
+  ""cod"": {
+	""type"": ""string""
+  },
+  ""message"": {
+	""type"": ""number""
+  },
+  ""cnt"": {
+	""type"": ""number""
+  },
+  ""list"": {
+	""type"": ""array"",
+	""items"": {
+	  ""type"": ""object"",
+	  ""properties"": {
+		""dt"": {
+		  ""type"": ""number""
+		},
+		""main"": {
+		  ""type"": ""object"",
+		  ""properties"": {
+			""temp"": {
+			  ""type"": ""number""
+			},
+			""feels_like"": {
+			  ""type"": ""number""
+			},
+			""temp_min"": {
+			  ""type"": ""number""
+			},
+			""temp_max"": {
+			  ""type"": ""number""
+			},
+			""pressure"": {
+			  ""type"": ""number""
+			},
+			""sea_level"": {
+			  ""type"": ""number""
+			},
+			""grnd_level"": {
+			  ""type"": ""number""
+			},
+			""humidity"": {
+			  ""type"": ""number""
+			},
+			""temp_kf"": {
+			  ""type"": ""number""
+			}
+		  },
+		  ""required"": [
+			""temp"",
+			""feels_like"",
+			""temp_min"",
+			""temp_max"",
+			""pressure"",
+			""sea_level"",
+			""grnd_level"",
+			""humidity"",
+			""temp_kf""
+		  ]
+		},
+		""weather"": {
+		  ""type"": ""array"",
+		  ""items"": {
+			""type"": ""object"",
+			""properties"": {
+			  ""id"": {
+				""type"": ""number""
+			  },
+			  ""main"": {
+				""type"": ""string""
+			  },
+			  ""description"": {
+				""type"": ""string""
+			  },
+			  ""icon"": {
+				""type"": ""string""
+			  }
+			},
+			""required"": [
+			  ""id"",
+			  ""main"",
+			  ""description"",
+			  ""icon""
+			]
+		  }
+		},
+		""clouds"": {
+		  ""type"": ""object"",
+		  ""properties"": {
+			""all"": {
+			  ""type"": ""number""
+			}
+		  },
+		  ""required"": [
+			""all""
+		  ]
+		},
+		""wind"": {
+		  ""type"": ""object"",
+		  ""properties"": {
+			""speed"": {
+			  ""type"": ""number""
+			},
+			""deg"": {
+			  ""type"": ""number""
+			},
+			""gust"": {
+			  ""type"": ""number""
+			}
+		  },
+		  ""required"": [
+			""speed"",
+			""deg"",
+			""gust""
+		  ]
+		},
+		""visibility"": {
+		  ""type"": ""number""
+		},
+		""pop"": {
+		  ""type"": ""number""
+		},
+		""sys"": {
+		  ""type"": ""object"",
+		  ""properties"": {
+			""pod"": {
+			  ""type"": ""string""
+			}
+		  },
+		  ""required"": [
+			""pod""
+		  ]
+		},
+		""dt_txt"": {
+		  ""type"": ""string""
+		},
+		""rain"": {
+		  ""type"": ""object"",
+		  ""properties"": {
+			""3h"": {
+			  ""type"": ""number""
+			}
+		  },
+		  ""required"": [
+			""3h""
+		  ]
+		}
+	  },
+	  ""required"": [
+		""dt"",
+		""main"",
+		""weather"",
+		""clouds"",
+		""wind"",
+		""visibility"",
+		""pop"",
+		""sys"",
+		""dt_txt""
+	  ]
+	}
+  },
+  ""city"": {
+	""type"": ""object"",
+	""properties"": {
+	  ""id"": {
+		""type"": ""number""
+	  },
+	  ""name"": {
+		""type"": ""string""
+	  },
+	  ""coord"": {
+		""type"": ""object"",
+		""properties"": {
+		  ""lat"": {
+			""type"": ""number""
+		  },
+		  ""lon"": {
+			""type"": ""number""
+		  }
+		},
+		""required"": [
+		  ""lat"",
+		  ""lon""
+		]
+	  },
+	  ""country"": {
+		""type"": ""string""
+	  },
+	  ""population"": {
+		""type"": ""number""
+	  },
+	  ""timezone"": {
+		""type"": ""number""
+	  },
+	  ""sunrise"": {
+		""type"": ""number""
+	  },
+	  ""sunset"": {
+		""type"": ""number""
+	  }
+	},
+	""required"": [
+	  ""id"",
+	  ""name"",
+	  ""coord"",
+	  ""country"",
+	  ""population"",
+	  ""timezone"",
+	  ""sunrise"",
+	  ""sunset""
+	]
+  }
+},
+""required"": [
+  ""cod"",
+  ""message"",
+  ""cnt"",
+  ""list"",
+  ""city""
+]
+}
+""",,,,08-05-2025 08:10:19,08-05-2025 08:10:19,0.005s,PASSED
+"validateJsonAgainstSchema(response, expectedSchema)",,,,08-05-2025 08:10:19,08-05-2025 08:10:19,0.163s,PASSED

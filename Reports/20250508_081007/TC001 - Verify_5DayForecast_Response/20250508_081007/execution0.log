@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-05-08T01:10:15.527178Z</date>
+  <millis>1746666615527</millis>
+  <nanos>178000</nanos>
+  <sequence>1</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TC001 - Verify_5DayForecast_Response</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">3</property>
+  <property name="name">TC001 - Verify_5DayForecast_Response</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TC001 - Verify_5DayForecast_Response</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:15.551461Z</date>
+  <millis>1746666615551</millis>
+  <nanos>461000</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = apple - localhost</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">apple - localhost</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:15.552922Z</date>
+  <millis>1746666615552</millis>
+  <nanos>922000</nanos>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:15.553907Z</date>
+  <millis>1746666615553</millis>
+  <nanos>907000</nanos>
+  <sequence>7</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 127.0.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">127.0.0.1</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:15.554972Z</date>
+  <millis>1746666615554</millis>
+  <nanos>972000</nanos>
+  <sequence>9</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 10.1.1.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">10.1.1.0</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:15.912936Z</date>
+  <millis>1746666615912</millis>
+  <nanos>936000</nanos>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Verify_5DayForecast_Response</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Verify_5DayForecast_Response</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Verify_5DayForecast_Response</property>
+  <property name="source">\Users\apple\Katalon Studio\nusatalent - tech test\Test Cases\Verify_5DayForecast_Response.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:16.481149Z</date>
+  <millis>1746666616481</millis>
+  <nanos>149000</nanos>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(&amp;quot;forecast weather jakarta&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">21</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.024319Z</date>
+  <millis>1746666619024</millis>
+  <nanos>319000</nanos>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/apple/Katalon Studio/nusatalent - tech test/Reports/20250508_081007/TC001 - Verify_5DayForecast_Response/20250508_081007/requests/main/forecast-w...jakarta_0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">3c3f3070-5a22-4988-b279-cb0a96bc5390</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.170955Z</date>
+  <millis>1746666619170</millis>
+  <nanos>955000</nanos>
+  <sequence>19</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.174198Z</date>
+  <millis>1746666619174</millis>
+  <nanos>198000</nanos>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(&amp;quot;forecast weather jakarta&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.175036Z</date>
+  <millis>1746666619175</millis>
+  <nanos>36000</nanos>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : requestBody = getBodyContent().getText()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.240410Z</date>
+  <millis>1746666619240</millis>
+  <nanos>410000</nanos>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : requestBody = getBodyContent().getText()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.240925Z</date>
+  <millis>1746666619240</millis>
+  <nanos>925000</nanos>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : logInfo(&amp;quot;JSON Request Body:
+&amp;quot; + requestBody)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.265189Z</date>
+  <millis>1746666619265</millis>
+  <nanos>189000</nanos>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>JSON Request Body:
+{&amp;quot;cod&amp;quot;:&amp;quot;200&amp;quot;,&amp;quot;message&amp;quot;:0,&amp;quot;cnt&amp;quot;:40,&amp;quot;list&amp;quot;:[{&amp;quot;dt&amp;quot;:1746673200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:304.65,&amp;quot;feels_like&amp;quot;:311.47,&amp;quot;temp_min&amp;quot;:304.65,&amp;quot;temp_max&amp;quot;:306.43,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:68,&amp;quot;temp_kf&amp;quot;:-1.78},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:89},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:0.52,&amp;quot;deg&amp;quot;:86,&amp;quot;gust&amp;quot;:0.52},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-08 03:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746684000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:306.12,&amp;quot;feels_like&amp;quot;:312.59,&amp;quot;temp_min&amp;quot;:306.12,&amp;quot;temp_max&amp;quot;:307.3,&amp;quot;pressure&amp;quot;:1007,&amp;quot;sea_level&amp;quot;:1007,&amp;quot;grnd_level&amp;quot;:1003,&amp;quot;humidity&amp;quot;:60,&amp;quot;temp_kf&amp;quot;:-1.18},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:93},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.88,&amp;quot;deg&amp;quot;:11,&amp;quot;gust&amp;quot;:2.13},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-08 06:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746694800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:306.67,&amp;quot;feels_like&amp;quot;:312.89,&amp;quot;temp_min&amp;quot;:306.67,&amp;quot;temp_max&amp;quot;:306.67,&amp;quot;pressure&amp;quot;:1005,&amp;quot;sea_level&amp;quot;:1005,&amp;quot;grnd_level&amp;quot;:1002,&amp;quot;humidity&amp;quot;:57,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:4.27,&amp;quot;deg&amp;quot;:4,&amp;quot;gust&amp;quot;:3.46},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.47,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.22},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-08 09:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746705600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:305.78,&amp;quot;feels_like&amp;quot;:312.78,&amp;quot;temp_min&amp;quot;:305.78,&amp;quot;temp_max&amp;quot;:305.78,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1005,&amp;quot;humidity&amp;quot;:63,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:99},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.14,&amp;quot;deg&amp;quot;:17,&amp;quot;gust&amp;quot;:1.65},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.66,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:1.05},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-08 12:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746716400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:306.86,&amp;quot;feels_like&amp;quot;:313.86,&amp;quot;temp_min&amp;quot;:306.86,&amp;quot;temp_max&amp;quot;:306.86,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:66,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:96},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:0.68,&amp;quot;deg&amp;quot;:13,&amp;quot;gust&amp;quot;:0.55},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-08 15:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746727200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:301.39,&amp;quot;feels_like&amp;quot;:304.43,&amp;quot;temp_min&amp;quot;:301.39,&amp;quot;temp_max&amp;quot;:301.39,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1005,&amp;quot;humidity&amp;quot;:71,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:94},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:0.63,&amp;quot;deg&amp;quot;:207,&amp;quot;gust&amp;quot;:0.94},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-08 18:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746738000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:301.44,&amp;quot;feels_like&amp;quot;:305,&amp;quot;temp_min&amp;quot;:301.44,&amp;quot;temp_max&amp;quot;:301.44,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1005,&amp;quot;humidity&amp;quot;:74,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:86},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.15,&amp;quot;deg&amp;quot;:204,&amp;quot;gust&amp;quot;:1.21},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.14,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-08 21:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746748800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:301.44,&amp;quot;feels_like&amp;quot;:305,&amp;quot;temp_min&amp;quot;:301.44,&amp;quot;temp_max&amp;quot;:301.44,&amp;quot;pressure&amp;quot;:1010,&amp;quot;sea_level&amp;quot;:1010,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:74,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:86},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.13,&amp;quot;deg&amp;quot;:202,&amp;quot;gust&amp;quot;:1.06},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-09 00:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746759600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:305.03,&amp;quot;feels_like&amp;quot;:309.09,&amp;quot;temp_min&amp;quot;:305.03,&amp;quot;temp_max&amp;quot;:305.03,&amp;quot;pressure&amp;quot;:1010,&amp;quot;sea_level&amp;quot;:1010,&amp;quot;grnd_level&amp;quot;:1007,&amp;quot;humidity&amp;quot;:57,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:803,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;broken clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:67},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.52,&amp;quot;deg&amp;quot;:301,&amp;quot;gust&amp;quot;:1.45},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-09 03:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746770400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:306.97,&amp;quot;feels_like&amp;quot;:311.15,&amp;quot;temp_min&amp;quot;:306.97,&amp;quot;temp_max&amp;quot;:306.97,&amp;quot;pressure&amp;quot;:1007,&amp;quot;sea_level&amp;quot;:1007,&amp;quot;grnd_level&amp;quot;:1003,&amp;quot;humidity&amp;quot;:50,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:803,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;broken clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:74},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:3.18,&amp;quot;deg&amp;quot;:336,&amp;quot;gust&amp;quot;:2.21},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-09 06:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746781200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:304.77,&amp;quot;feels_like&amp;quot;:308.8,&amp;quot;temp_min&amp;quot;:304.77,&amp;quot;temp_max&amp;quot;:304.77,&amp;quot;pressure&amp;quot;:1006,&amp;quot;sea_level&amp;quot;:1006,&amp;quot;grnd_level&amp;quot;:1003,&amp;quot;humidity&amp;quot;:58,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:803,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;broken clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:78},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:4.71,&amp;quot;deg&amp;quot;:347,&amp;quot;gust&amp;quot;:3.98},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-09 09:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746792000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:304.31,&amp;quot;feels_like&amp;quot;:308.86,&amp;quot;temp_min&amp;quot;:304.31,&amp;quot;temp_max&amp;quot;:304.31,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1005,&amp;quot;humidity&amp;quot;:62,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:67},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.57,&amp;quot;deg&amp;quot;:317,&amp;quot;gust&amp;quot;:3.17},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.26,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.38},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-09 12:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746802800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:302.96,&amp;quot;feels_like&amp;quot;:307.28,&amp;quot;temp_min&amp;quot;:302.96,&amp;quot;temp_max&amp;quot;:302.96,&amp;quot;pressure&amp;quot;:1010,&amp;quot;sea_level&amp;quot;:1010,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:68,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:47},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.63,&amp;quot;deg&amp;quot;:256,&amp;quot;gust&amp;quot;:2.16},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:1,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.58},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-09 15:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746813600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:301.57,&amp;quot;feels_like&amp;quot;:305.62,&amp;quot;temp_min&amp;quot;:301.57,&amp;quot;temp_max&amp;quot;:301.57,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1005,&amp;quot;humidity&amp;quot;:76,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:35},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.55,&amp;quot;deg&amp;quot;:219,&amp;quot;gust&amp;quot;:2.13},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.94,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.45},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-09 18:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746824400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:300.88,&amp;quot;feels_like&amp;quot;:304.31,&amp;quot;temp_min&amp;quot;:300.88,&amp;quot;temp_max&amp;quot;:300.88,&amp;quot;pressure&amp;quot;:1007,&amp;quot;sea_level&amp;quot;:1007,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:78,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:803,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;broken clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:70},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.45,&amp;quot;deg&amp;quot;:202,&amp;quot;gust&amp;quot;:1.8},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-09 21:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746835200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:300.89,&amp;quot;feels_like&amp;quot;:304.07,&amp;quot;temp_min&amp;quot;:300.89,&amp;quot;temp_max&amp;quot;:300.89,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:76,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:803,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;broken clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:78},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.46,&amp;quot;deg&amp;quot;:249,&amp;quot;gust&amp;quot;:1.26},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-10 00:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746846000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:304.78,&amp;quot;feels_like&amp;quot;:308.55,&amp;quot;temp_min&amp;quot;:304.78,&amp;quot;temp_max&amp;quot;:304.78,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:57,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:802,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;scattered clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;03d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:47},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:0.72,&amp;quot;deg&amp;quot;:245,&amp;quot;gust&amp;quot;:0.73},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-10 03:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746856800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:307.71,&amp;quot;feels_like&amp;quot;:311.4,&amp;quot;temp_min&amp;quot;:307.71,&amp;quot;temp_max&amp;quot;:307.71,&amp;quot;pressure&amp;quot;:1006,&amp;quot;sea_level&amp;quot;:1006,&amp;quot;grnd_level&amp;quot;:1003,&amp;quot;humidity&amp;quot;:46,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:802,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;scattered clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;03d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:37},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.43,&amp;quot;deg&amp;quot;:324,&amp;quot;gust&amp;quot;:1.61},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.02,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-10 06:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746867600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:304.86,&amp;quot;feels_like&amp;quot;:308.72,&amp;quot;temp_min&amp;quot;:304.86,&amp;quot;temp_max&amp;quot;:304.86,&amp;quot;pressure&amp;quot;:1006,&amp;quot;sea_level&amp;quot;:1006,&amp;quot;grnd_level&amp;quot;:1003,&amp;quot;humidity&amp;quot;:57,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:98},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:3.4,&amp;quot;deg&amp;quot;:309,&amp;quot;gust&amp;quot;:4.02},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:1,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:1.03},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-10 09:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746878400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:303.99,&amp;quot;feels_like&amp;quot;:308.4,&amp;quot;temp_min&amp;quot;:303.99,&amp;quot;temp_max&amp;quot;:303.99,&amp;quot;pressure&amp;quot;:1007,&amp;quot;sea_level&amp;quot;:1007,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:63,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:99},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.71,&amp;quot;deg&amp;quot;:233,&amp;quot;gust&amp;quot;:3.47},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:1,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.66},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-10 12:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746889200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:302.44,&amp;quot;feels_like&amp;quot;:306.72,&amp;quot;temp_min&amp;quot;:302.44,&amp;quot;temp_max&amp;quot;:302.44,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:71,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.3,&amp;quot;deg&amp;quot;:199,&amp;quot;gust&amp;quot;:2.61},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.54,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.43},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-10 15:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746900000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:301.32,&amp;quot;feels_like&amp;quot;:304.58,&amp;quot;temp_min&amp;quot;:301.32,&amp;quot;temp_max&amp;quot;:301.32,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1005,&amp;quot;humidity&amp;quot;:73,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:83},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.99,&amp;quot;deg&amp;quot;:212,&amp;quot;gust&amp;quot;:1.87},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.44,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.18},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-10 18:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746910800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:300.69,&amp;quot;feels_like&amp;quot;:303.4,&amp;quot;temp_min&amp;quot;:300.69,&amp;quot;temp_max&amp;quot;:300.69,&amp;quot;pressure&amp;quot;:1007,&amp;quot;sea_level&amp;quot;:1007,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:74,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:802,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;scattered clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;03n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:44},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.55,&amp;quot;deg&amp;quot;:237,&amp;quot;gust&amp;quot;:1.63},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-10 21:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746921600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:300.71,&amp;quot;feels_like&amp;quot;:302.99,&amp;quot;temp_min&amp;quot;:300.71,&amp;quot;temp_max&amp;quot;:300.71,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1005,&amp;quot;humidity&amp;quot;:70,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:802,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;scattered clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;03d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:42},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.6,&amp;quot;deg&amp;quot;:222,&amp;quot;gust&amp;quot;:1.53},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-11 00:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746932400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:304.6,&amp;quot;feels_like&amp;quot;:307.2,&amp;quot;temp_min&amp;quot;:304.6,&amp;quot;temp_max&amp;quot;:304.6,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:53,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:801,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;few clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;02d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:14},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.45,&amp;quot;deg&amp;quot;:232,&amp;quot;gust&amp;quot;:1.77},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-11 03:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746943200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:307.54,&amp;quot;feels_like&amp;quot;:310.42,&amp;quot;temp_min&amp;quot;:307.54,&amp;quot;temp_max&amp;quot;:307.54,&amp;quot;pressure&amp;quot;:1006,&amp;quot;sea_level&amp;quot;:1006,&amp;quot;grnd_level&amp;quot;:1003,&amp;quot;humidity&amp;quot;:44,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:801,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;few clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;02d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:11},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.96,&amp;quot;deg&amp;quot;:248,&amp;quot;gust&amp;quot;:3.61},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.01,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-11 06:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746954000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:306.35,&amp;quot;feels_like&amp;quot;:309.85,&amp;quot;temp_min&amp;quot;:306.35,&amp;quot;temp_max&amp;quot;:306.35,&amp;quot;pressure&amp;quot;:1005,&amp;quot;sea_level&amp;quot;:1005,&amp;quot;grnd_level&amp;quot;:1002,&amp;quot;humidity&amp;quot;:50,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:61},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:5.03,&amp;quot;deg&amp;quot;:261,&amp;quot;gust&amp;quot;:5.21},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.54,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.15},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-11 09:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746964800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:303.97,&amp;quot;feels_like&amp;quot;:307.38,&amp;quot;temp_min&amp;quot;:303.97,&amp;quot;temp_max&amp;quot;:303.97,&amp;quot;pressure&amp;quot;:1007,&amp;quot;sea_level&amp;quot;:1007,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:59,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:57},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:4.71,&amp;quot;deg&amp;quot;:235,&amp;quot;gust&amp;quot;:5.09},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.6,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.38},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-11 12:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746975600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:302.39,&amp;quot;feels_like&amp;quot;:305.46,&amp;quot;temp_min&amp;quot;:302.39,&amp;quot;temp_max&amp;quot;:302.39,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:65,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:802,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;scattered clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;03n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:35},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.71,&amp;quot;deg&amp;quot;:197,&amp;quot;gust&amp;quot;:2.99},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-11 15:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746986400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:301.54,&amp;quot;feels_like&amp;quot;:304.14,&amp;quot;temp_min&amp;quot;:301.54,&amp;quot;temp_max&amp;quot;:301.54,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1005,&amp;quot;humidity&amp;quot;:67,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:803,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;broken clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:57},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.02,&amp;quot;deg&amp;quot;:214,&amp;quot;gust&amp;quot;:1.88},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-11 18:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1746997200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:300.68,&amp;quot;feels_like&amp;quot;:302.72,&amp;quot;temp_min&amp;quot;:300.68,&amp;quot;temp_max&amp;quot;:300.68,&amp;quot;pressure&amp;quot;:1007,&amp;quot;sea_level&amp;quot;:1007,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:68,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:99},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.55,&amp;quot;deg&amp;quot;:232,&amp;quot;gust&amp;quot;:1.76},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-11 21:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1747008000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:300.77,&amp;quot;feels_like&amp;quot;:302.88,&amp;quot;temp_min&amp;quot;:300.77,&amp;quot;temp_max&amp;quot;:300.77,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:68,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.44,&amp;quot;deg&amp;quot;:243,&amp;quot;gust&amp;quot;:1.33},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-12 00:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1747018800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:304.28,&amp;quot;feels_like&amp;quot;:306.84,&amp;quot;temp_min&amp;quot;:304.28,&amp;quot;temp_max&amp;quot;:304.28,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:54,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.62,&amp;quot;deg&amp;quot;:239,&amp;quot;gust&amp;quot;:1.77},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-12 03:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1747029600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:307.08,&amp;quot;feels_like&amp;quot;:309.82,&amp;quot;temp_min&amp;quot;:307.08,&amp;quot;temp_max&amp;quot;:307.08,&amp;quot;pressure&amp;quot;:1006,&amp;quot;sea_level&amp;quot;:1006,&amp;quot;grnd_level&amp;quot;:1003,&amp;quot;humidity&amp;quot;:45,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:94},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:2.64,&amp;quot;deg&amp;quot;:269,&amp;quot;gust&amp;quot;:3.75},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-12 06:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1747040400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:306,&amp;quot;feels_like&amp;quot;:309.42,&amp;quot;temp_min&amp;quot;:306,&amp;quot;temp_max&amp;quot;:306,&amp;quot;pressure&amp;quot;:1005,&amp;quot;sea_level&amp;quot;:1005,&amp;quot;grnd_level&amp;quot;:1002,&amp;quot;humidity&amp;quot;:51,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:97},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:3.75,&amp;quot;deg&amp;quot;:274,&amp;quot;gust&amp;quot;:4.64},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.51,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.19},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-12 09:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1747051200,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:303.87,&amp;quot;feels_like&amp;quot;:307.89,&amp;quot;temp_min&amp;quot;:303.87,&amp;quot;temp_max&amp;quot;:303.87,&amp;quot;pressure&amp;quot;:1007,&amp;quot;sea_level&amp;quot;:1007,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:62,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:98},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:3.28,&amp;quot;deg&amp;quot;:222,&amp;quot;gust&amp;quot;:4.1},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.73,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.58},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-12 12:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1747062000,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:302.55,&amp;quot;feels_like&amp;quot;:306.17,&amp;quot;temp_min&amp;quot;:302.55,&amp;quot;temp_max&amp;quot;:302.55,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1005,&amp;quot;humidity&amp;quot;:67,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:804,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;overcast clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;04n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:100},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.81,&amp;quot;deg&amp;quot;:190,&amp;quot;gust&amp;quot;:1.82},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-12 15:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1747072800,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:301.53,&amp;quot;feels_like&amp;quot;:304.72,&amp;quot;temp_min&amp;quot;:301.53,&amp;quot;temp_max&amp;quot;:301.53,&amp;quot;pressure&amp;quot;:1008,&amp;quot;sea_level&amp;quot;:1008,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:71,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:500,&amp;quot;main&amp;quot;:&amp;quot;Rain&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;light rain&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;10n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:80},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:0.69,&amp;quot;deg&amp;quot;:146,&amp;quot;gust&amp;quot;:1.08},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.51,&amp;quot;rain&amp;quot;:{&amp;quot;3h&amp;quot;:0.56},&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-12 18:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1747083600,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:300.51,&amp;quot;feels_like&amp;quot;:303.37,&amp;quot;temp_min&amp;quot;:300.51,&amp;quot;temp_max&amp;quot;:300.51,&amp;quot;pressure&amp;quot;:1007,&amp;quot;sea_level&amp;quot;:1007,&amp;quot;grnd_level&amp;quot;:1004,&amp;quot;humidity&amp;quot;:77,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:802,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;scattered clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;03n&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:37},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.92,&amp;quot;deg&amp;quot;:77,&amp;quot;gust&amp;quot;:1.67},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.2,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;n&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-12 21:00:00&amp;quot;},{&amp;quot;dt&amp;quot;:1747094400,&amp;quot;main&amp;quot;:{&amp;quot;temp&amp;quot;:300.6,&amp;quot;feels_like&amp;quot;:303.68,&amp;quot;temp_min&amp;quot;:300.6,&amp;quot;temp_max&amp;quot;:300.6,&amp;quot;pressure&amp;quot;:1009,&amp;quot;sea_level&amp;quot;:1009,&amp;quot;grnd_level&amp;quot;:1006,&amp;quot;humidity&amp;quot;:78,&amp;quot;temp_kf&amp;quot;:0},&amp;quot;weather&amp;quot;:[{&amp;quot;id&amp;quot;:802,&amp;quot;main&amp;quot;:&amp;quot;Clouds&amp;quot;,&amp;quot;description&amp;quot;:&amp;quot;scattered clouds&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;03d&amp;quot;}],&amp;quot;clouds&amp;quot;:{&amp;quot;all&amp;quot;:49},&amp;quot;wind&amp;quot;:{&amp;quot;speed&amp;quot;:1.41,&amp;quot;deg&amp;quot;:81,&amp;quot;gust&amp;quot;:1.19},&amp;quot;visibility&amp;quot;:10000,&amp;quot;pop&amp;quot;:0.05,&amp;quot;sys&amp;quot;:{&amp;quot;pod&amp;quot;:&amp;quot;d&amp;quot;},&amp;quot;dt_txt&amp;quot;:&amp;quot;2025-05-13 00:00:00&amp;quot;}],&amp;quot;city&amp;quot;:{&amp;quot;id&amp;quot;:1642911,&amp;quot;name&amp;quot;:&amp;quot;Jakarta&amp;quot;,&amp;quot;coord&amp;quot;:{&amp;quot;lat&amp;quot;:-6.2146,&amp;quot;lon&amp;quot;:106.8451},&amp;quot;country&amp;quot;:&amp;quot;ID&amp;quot;,&amp;quot;population&amp;quot;:8540121,&amp;quot;timezone&amp;quot;:25200,&amp;quot;sunrise&amp;quot;:1746658397,&amp;quot;sunset&amp;quot;:1746701097}}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.293050Z</date>
+  <millis>1746666619293</millis>
+  <nanos>50000</nanos>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : logInfo(&amp;quot;JSON Request Body:
+&amp;quot; + requestBody)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.293932Z</date>
+  <millis>1746666619293</millis>
+  <nanos>932000</nanos>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.313367Z</date>
+  <millis>1746666619313</millis>
+  <nanos>367000</nanos>
+  <sequence>29</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.315531Z</date>
+  <millis>1746666619315</millis>
+  <nanos>531000</nanos>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.316274Z</date>
+  <millis>1746666619316</millis>
+  <nanos>274000</nanos>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : logInfo(&amp;quot;Status code is 200 OK&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">25</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.318035Z</date>
+  <millis>1746666619318</millis>
+  <nanos>35000</nanos>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Status code is 200 OK</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.319539Z</date>
+  <millis>1746666619319</millis>
+  <nanos>539000</nanos>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : logInfo(&amp;quot;Status code is 200 OK&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.319954Z</date>
+  <millis>1746666619319</millis>
+  <nanos>954000</nanos>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(response, &amp;quot;city.name&amp;quot;, &amp;quot;Jakarta&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.422170Z</date>
+  <millis>1746666619422</millis>
+  <nanos>170000</nanos>
+  <sequence>37</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.424202Z</date>
+  <millis>1746666619424</millis>
+  <nanos>202000</nanos>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(response, &amp;quot;city.name&amp;quot;, &amp;quot;Jakarta&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.425278Z</date>
+  <millis>1746666619425</millis>
+  <nanos>278000</nanos>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : logInfo(&amp;quot;City Name: &amp;quot; + getElementPropertyValue(response, &amp;quot;city.name&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">27</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.467959Z</date>
+  <millis>1746666619467</millis>
+  <nanos>959000</nanos>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>City Name: Jakarta</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.470140Z</date>
+  <millis>1746666619470</millis>
+  <nanos>140000</nanos>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : logInfo(&amp;quot;City Name: &amp;quot; + getElementPropertyValue(response, &amp;quot;city.name&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.470645Z</date>
+  <millis>1746666619470</millis>
+  <nanos>645000</nanos>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : expectedSchema = &amp;quot;
+{
+&amp;quot;$schema&amp;quot;: &amp;quot;http://json-schema.org/draft-07/schema#&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+&amp;quot;properties&amp;quot;: {
+  &amp;quot;cod&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+  },
+  &amp;quot;message&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+  },
+  &amp;quot;cnt&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+  },
+  &amp;quot;list&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;array&amp;quot;,
+	&amp;quot;items&amp;quot;: {
+	  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+	  &amp;quot;properties&amp;quot;: {
+		&amp;quot;dt&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		},
+		&amp;quot;main&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;temp&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;feels_like&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;temp_min&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;temp_max&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;pressure&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;sea_level&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;grnd_level&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;humidity&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;temp_kf&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;temp&amp;quot;,
+			&amp;quot;feels_like&amp;quot;,
+			&amp;quot;temp_min&amp;quot;,
+			&amp;quot;temp_max&amp;quot;,
+			&amp;quot;pressure&amp;quot;,
+			&amp;quot;sea_level&amp;quot;,
+			&amp;quot;grnd_level&amp;quot;,
+			&amp;quot;humidity&amp;quot;,
+			&amp;quot;temp_kf&amp;quot;
+		  ]
+		},
+		&amp;quot;weather&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;array&amp;quot;,
+		  &amp;quot;items&amp;quot;: {
+			&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+			&amp;quot;properties&amp;quot;: {
+			  &amp;quot;id&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			  },
+			  &amp;quot;main&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			  },
+			  &amp;quot;description&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			  },
+			  &amp;quot;icon&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			  }
+			},
+			&amp;quot;required&amp;quot;: [
+			  &amp;quot;id&amp;quot;,
+			  &amp;quot;main&amp;quot;,
+			  &amp;quot;description&amp;quot;,
+			  &amp;quot;icon&amp;quot;
+			]
+		  }
+		},
+		&amp;quot;clouds&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;all&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;all&amp;quot;
+		  ]
+		},
+		&amp;quot;wind&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;speed&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;deg&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;gust&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;speed&amp;quot;,
+			&amp;quot;deg&amp;quot;,
+			&amp;quot;gust&amp;quot;
+		  ]
+		},
+		&amp;quot;visibility&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		},
+		&amp;quot;pop&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		},
+		&amp;quot;sys&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;pod&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;pod&amp;quot;
+		  ]
+		},
+		&amp;quot;dt_txt&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+		},
+		&amp;quot;rain&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;3h&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;3h&amp;quot;
+		  ]
+		}
+	  },
+	  &amp;quot;required&amp;quot;: [
+		&amp;quot;dt&amp;quot;,
+		&amp;quot;main&amp;quot;,
+		&amp;quot;weather&amp;quot;,
+		&amp;quot;clouds&amp;quot;,
+		&amp;quot;wind&amp;quot;,
+		&amp;quot;visibility&amp;quot;,
+		&amp;quot;pop&amp;quot;,
+		&amp;quot;sys&amp;quot;,
+		&amp;quot;dt_txt&amp;quot;
+	  ]
+	}
+  },
+  &amp;quot;city&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+	&amp;quot;properties&amp;quot;: {
+	  &amp;quot;id&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;name&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+	  },
+	  &amp;quot;coord&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		&amp;quot;properties&amp;quot;: {
+		  &amp;quot;lat&amp;quot;: {
+			&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		  },
+		  &amp;quot;lon&amp;quot;: {
+			&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		  }
+		},
+		&amp;quot;required&amp;quot;: [
+		  &amp;quot;lat&amp;quot;,
+		  &amp;quot;lon&amp;quot;
+		]
+	  },
+	  &amp;quot;country&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+	  },
+	  &amp;quot;population&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;timezone&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;sunrise&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;sunset&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  }
+	},
+	&amp;quot;required&amp;quot;: [
+	  &amp;quot;id&amp;quot;,
+	  &amp;quot;name&amp;quot;,
+	  &amp;quot;coord&amp;quot;,
+	  &amp;quot;country&amp;quot;,
+	  &amp;quot;population&amp;quot;,
+	  &amp;quot;timezone&amp;quot;,
+	  &amp;quot;sunrise&amp;quot;,
+	  &amp;quot;sunset&amp;quot;
+	]
+  }
+},
+&amp;quot;required&amp;quot;: [
+  &amp;quot;cod&amp;quot;,
+  &amp;quot;message&amp;quot;,
+  &amp;quot;cnt&amp;quot;,
+  &amp;quot;list&amp;quot;,
+  &amp;quot;city&amp;quot;
+]
+}
+&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">29</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.475863Z</date>
+  <millis>1746666619475</millis>
+  <nanos>863000</nanos>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : expectedSchema = &amp;quot;
+{
+&amp;quot;$schema&amp;quot;: &amp;quot;http://json-schema.org/draft-07/schema#&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+&amp;quot;properties&amp;quot;: {
+  &amp;quot;cod&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+  },
+  &amp;quot;message&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+  },
+  &amp;quot;cnt&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+  },
+  &amp;quot;list&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;array&amp;quot;,
+	&amp;quot;items&amp;quot;: {
+	  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+	  &amp;quot;properties&amp;quot;: {
+		&amp;quot;dt&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		},
+		&amp;quot;main&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;temp&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;feels_like&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;temp_min&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;temp_max&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;pressure&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;sea_level&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;grnd_level&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;humidity&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;temp_kf&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;temp&amp;quot;,
+			&amp;quot;feels_like&amp;quot;,
+			&amp;quot;temp_min&amp;quot;,
+			&amp;quot;temp_max&amp;quot;,
+			&amp;quot;pressure&amp;quot;,
+			&amp;quot;sea_level&amp;quot;,
+			&amp;quot;grnd_level&amp;quot;,
+			&amp;quot;humidity&amp;quot;,
+			&amp;quot;temp_kf&amp;quot;
+		  ]
+		},
+		&amp;quot;weather&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;array&amp;quot;,
+		  &amp;quot;items&amp;quot;: {
+			&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+			&amp;quot;properties&amp;quot;: {
+			  &amp;quot;id&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			  },
+			  &amp;quot;main&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			  },
+			  &amp;quot;description&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			  },
+			  &amp;quot;icon&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			  }
+			},
+			&amp;quot;required&amp;quot;: [
+			  &amp;quot;id&amp;quot;,
+			  &amp;quot;main&amp;quot;,
+			  &amp;quot;description&amp;quot;,
+			  &amp;quot;icon&amp;quot;
+			]
+		  }
+		},
+		&amp;quot;clouds&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;all&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;all&amp;quot;
+		  ]
+		},
+		&amp;quot;wind&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;speed&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;deg&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;gust&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;speed&amp;quot;,
+			&amp;quot;deg&amp;quot;,
+			&amp;quot;gust&amp;quot;
+		  ]
+		},
+		&amp;quot;visibility&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		},
+		&amp;quot;pop&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		},
+		&amp;quot;sys&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;pod&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;pod&amp;quot;
+		  ]
+		},
+		&amp;quot;dt_txt&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+		},
+		&amp;quot;rain&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;3h&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;3h&amp;quot;
+		  ]
+		}
+	  },
+	  &amp;quot;required&amp;quot;: [
+		&amp;quot;dt&amp;quot;,
+		&amp;quot;main&amp;quot;,
+		&amp;quot;weather&amp;quot;,
+		&amp;quot;clouds&amp;quot;,
+		&amp;quot;wind&amp;quot;,
+		&amp;quot;visibility&amp;quot;,
+		&amp;quot;pop&amp;quot;,
+		&amp;quot;sys&amp;quot;,
+		&amp;quot;dt_txt&amp;quot;
+	  ]
+	}
+  },
+  &amp;quot;city&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+	&amp;quot;properties&amp;quot;: {
+	  &amp;quot;id&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;name&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+	  },
+	  &amp;quot;coord&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		&amp;quot;properties&amp;quot;: {
+		  &amp;quot;lat&amp;quot;: {
+			&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		  },
+		  &amp;quot;lon&amp;quot;: {
+			&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		  }
+		},
+		&amp;quot;required&amp;quot;: [
+		  &amp;quot;lat&amp;quot;,
+		  &amp;quot;lon&amp;quot;
+		]
+	  },
+	  &amp;quot;country&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+	  },
+	  &amp;quot;population&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;timezone&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;sunrise&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;sunset&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  }
+	},
+	&amp;quot;required&amp;quot;: [
+	  &amp;quot;id&amp;quot;,
+	  &amp;quot;name&amp;quot;,
+	  &amp;quot;coord&amp;quot;,
+	  &amp;quot;country&amp;quot;,
+	  &amp;quot;population&amp;quot;,
+	  &amp;quot;timezone&amp;quot;,
+	  &amp;quot;sunrise&amp;quot;,
+	  &amp;quot;sunset&amp;quot;
+	]
+  }
+},
+&amp;quot;required&amp;quot;: [
+  &amp;quot;cod&amp;quot;,
+  &amp;quot;message&amp;quot;,
+  &amp;quot;cnt&amp;quot;,
+  &amp;quot;list&amp;quot;,
+  &amp;quot;city&amp;quot;
+]
+}
+&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.477741Z</date>
+  <millis>1746666619477</millis>
+  <nanos>741000</nanos>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : validateJsonAgainstSchema(response, expectedSchema)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">257</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.639841Z</date>
+  <millis>1746666619639</millis>
+  <nanos>841000</nanos>
+  <sequence>49</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Validate with JSON Schema successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.ValidateJsonAgainstSchemaKeyword.validateWithJsonSchema</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.640581Z</date>
+  <millis>1746666619640</millis>
+  <nanos>581000</nanos>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : validateJsonAgainstSchema(response, expectedSchema)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.641037Z</date>
+  <millis>1746666619641</millis>
+  <nanos>37000</nanos>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Verify_5DayForecast_Response</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.642479Z</date>
+  <millis>1746666619642</millis>
+  <nanos>479000</nanos>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Verify_5DayForecast_Response</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.644737Z</date>
+  <millis>1746666619644</millis>
+  <nanos>737000</nanos>
+  <sequence>54</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:19.980473Z</date>
+  <millis>1746666619980</millis>
+  <nanos>473000</nanos>
+  <sequence>127</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: /Users/apple/Katalon Studio/nusatalent - tech test/Reports/20250508_081007/TC001 - Verify_5DayForecast_Response/20250508_081007...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:20.092573Z</date>
+  <millis>1746666620092</millis>
+  <nanos>573000</nanos>
+  <sequence>129</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:20.093884Z</date>
+  <millis>1746666620093</millis>
+  <nanos>884000</nanos>
+  <sequence>131</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: /Users/apple/Katalon Studio/nusatalent - tech test/Reports/20250508_081007/TC001 - Verify_5DayForecast_Response/20250508_081007...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:20.118595Z</date>
+  <millis>1746666620118</millis>
+  <nanos>595000</nanos>
+  <sequence>133</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:20.146563Z</date>
+  <millis>1746666620146</millis>
+  <nanos>563000</nanos>
+  <sequence>135</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T01:10:20.255885Z</date>
+  <millis>1746666620255</millis>
+  <nanos>885000</nanos>
+  <sequence>139</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/TC001 - Verify_5DayForecast_Response</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

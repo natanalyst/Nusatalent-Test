@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC001 - Verify_5DayForecast_Response" time="3.808" tests="1" failures="0" errors="0">
+   <testsuite name="TC001 - Verify_5DayForecast_Response" tests="1" failures="0" errors="0" time="3.808" skipped="0" timestamp="08-05-2025T07:58:27" hostname="apple - localhost" id="Test Suites/TC001 - Verify_5DayForecast_Response">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/apple/Katalon Studio/nusatalent - tech test/Reports/20250508_075821/TC001 - Verify_5DayForecast_Response/20250508_075821"/>
+         <property name="logFiles" value="/Users/apple/Katalon Studio/nusatalent - tech test/Reports/20250508_075821/TC001 - Verify_5DayForecast_Response/20250508_075821/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="apple - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+      </properties>
+      <testcase name="Test Cases/Verify_5DayForecast_Response" time="3.55" classname="Test Cases/Verify_5DayForecast_Response" status="PASSED">
+         <system-out><![CDATA[08-05-2025T07:58:27 - [TEST_CASE][PASSED] - Test Cases/Verify_5DayForecast_Response: Test Cases/Verify_5DayForecast_Response
+
+08-05-2025T07:58:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("forecast weather jakarta")): Send request successfully
+
+08-05-2025T07:58:30 - [MESSAGE][INFO] - HAR: /Users/apple/Katalon Studio/nusatalent - tech test/Reports/20250508_075821/TC001 - Verify_5DayForecast_Response/20250508_075821/requests/main/forecast-w...jakarta_0.har
+
+08-05-2025T07:58:30 - [MESSAGE][PASSED] - Send request successfully
+
+08-05-2025T07:58:30 - [TEST_STEP][PASSED] - println(response): null
+
+08-05-2025T07:58:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+08-05-2025T07:58:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+08-05-2025T07:58:30 - [TEST_STEP][PASSED] - logInfo("Status code is 200 OK"): Status code is 200 OK
+
+08-05-2025T07:58:30 - [MESSAGE][INFO] - Status code is 200 OK
+
+08-05-2025T07:58:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "city.name", "Jakarta"): Verify element property value successfully
+
+08-05-2025T07:58:30 - [MESSAGE][PASSED] - Verify element property value successfully
+
+08-05-2025T07:58:30 - [TEST_STEP][PASSED] - expectedSchema = "
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+"type": "object",
+"properties": {
+  "cod": {
+	"type": "string"
+  },
+  "message": {
+	"type": "number"
+  },
+  "cnt": {
+	"type": "number"
+  },
+  "list": {
+	"type": "array",
+	"items": {
+	  "type": "object",
+	  "properties": {
+		"dt": {
+		  "type": "number"
+		},
+		"main": {
+		  "type": "object",
+		  "properties": {
+			"temp": {
+			  "type": "number"
+			},
+			"feels_like": {
+			  "type": "number"
+			},
+			"temp_min": {
+			  "type": "number"
+			},
+			"temp_max": {
+			  "type": "number"
+			},
+			"pressure": {
+			  "type": "number"
+			},
+			"sea_level": {
+			  "type": "number"
+			},
+			"grnd_level": {
+			  "type": "number"
+			},
+			"humidity": {
+			  "type": "number"
+			},
+			"temp_kf": {
+			  "type": "number"
+			}
+		  },
+		  "required": [
+			"temp",
+			"feels_like",
+			"temp_min",
+			"temp_max",
+			"pressure",
+			"sea_level",
+			"grnd_level",
+			"humidity",
+			"temp_kf"
+		  ]
+		},
+		"weather": {
+		  "type": "array",
+		  "items": {
+			"type": "object",
+			"properties": {
+			  "id": {
+				"type": "number"
+			  },
+			  "main": {
+				"type": "string"
+			  },
+			  "description": {
+				"type": "string"
+			  },
+			  "icon": {
+				"type": "string"
+			  }
+			},
+			"required": [
+			  "id",
+			  "main",
+			  "description",
+			  "icon"
+			]
+		  }
+		},
+		"clouds": {
+		  "type": "object",
+		  "properties": {
+			"all": {
+			  "type": "number"
+			}
+		  },
+		  "required": [
+			"all"
+		  ]
+		},
+		"wind": {
+		  "type": "object",
+		  "properties": {
+			"speed": {
+			  "type": "number"
+			},
+			"deg": {
+			  "type": "number"
+			},
+			"gust": {
+			  "type": "number"
+			}
+		  },
+		  "required": [
+			"speed",
+			"deg",
+			"gust"
+		  ]
+		},
+		"visibility": {
+		  "type": "number"
+		},
+		"pop": {
+		  "type": "number"
+		},
+		"sys": {
+		  "type": "object",
+		  "properties": {
+			"pod": {
+			  "type": "string"
+			}
+		  },
+		  "required": [
+			"pod"
+		  ]
+		},
+		"dt_txt": {
+		  "type": "string"
+		},
+		"rain": {
+		  "type": "object",
+		  "properties": {
+			"3h": {
+			  "type": "number"
+			}
+		  },
+		  "required": [
+			"3h"
+		  ]
+		}
+	  },
+	  "required": [
+		"dt",
+		"main",
+		"weather",
+		"clouds",
+		"wind",
+		"visibility",
+		"pop",
+		"sys",
+		"dt_txt"
+	  ]
+	}
+  },
+  "city": {
+	"type": "object",
+	"properties": {
+	  "id": {
+		"type": "number"
+	  },
+	  "name": {
+		"type": "string"
+	  },
+	  "coord": {
+		"type": "object",
+		"properties": {
+		  "lat": {
+			"type": "number"
+		  },
+		  "lon": {
+			"type": "number"
+		  }
+		},
+		"required": [
+		  "lat",
+		  "lon"
+		]
+	  },
+	  "country": {
+		"type": "string"
+	  },
+	  "population": {
+		"type": "number"
+	  },
+	  "timezone": {
+		"type": "number"
+	  },
+	  "sunrise": {
+		"type": "number"
+	  },
+	  "sunset": {
+		"type": "number"
+	  }
+	},
+	"required": [
+	  "id",
+	  "name",
+	  "coord",
+	  "country",
+	  "population",
+	  "timezone",
+	  "sunrise",
+	  "sunset"
+	]
+  }
+},
+"required": [
+  "cod",
+  "message",
+  "cnt",
+  "list",
+  "city"
+]
+}
+": null
+
+08-05-2025T07:58:30 - [TEST_STEP][PASSED] - validateJsonAgainstSchema(response, expectedSchema): Validate with JSON Schema successfully
+
+08-05-2025T07:58:31 - [MESSAGE][PASSED] - Validate with JSON Schema successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-05-2025T07:58:27 - [TEST_SUITE][PASSED] - TC001 - Verify_5DayForecast_Response: Test Cases/Verify_5DayForecast_Response]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

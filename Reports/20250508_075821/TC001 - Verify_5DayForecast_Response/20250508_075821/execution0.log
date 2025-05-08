@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-05-08T00:58:27.342857Z</date>
+  <millis>1746665907342</millis>
+  <nanos>857000</nanos>
+  <sequence>1</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TC001 - Verify_5DayForecast_Response</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">3</property>
+  <property name="name">TC001 - Verify_5DayForecast_Response</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TC001 - Verify_5DayForecast_Response</property>
+</record>
+<record>
+  <date>2025-05-08T00:58:27.360939Z</date>
+  <millis>1746665907360</millis>
+  <nanos>939000</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = apple - localhost</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">apple - localhost</property>
+</record>
+<record>
+  <date>2025-05-08T00:58:27.368710Z</date>
+  <millis>1746665907368</millis>
+  <nanos>710000</nanos>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2025-05-08T00:58:27.370990Z</date>
+  <millis>1746665907370</millis>
+  <nanos>990000</nanos>
+  <sequence>7</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 127.0.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">127.0.0.1</property>
+</record>
+<record>
+  <date>2025-05-08T00:58:27.376023Z</date>
+  <millis>1746665907376</millis>
+  <nanos>23000</nanos>
+  <sequence>9</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 10.1.1.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">10.1.1.0</property>
+</record>
+<record>
+  <date>2025-05-08T00:58:27.600678Z</date>
+  <millis>1746665907600</millis>
+  <nanos>678000</nanos>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Verify_5DayForecast_Response</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Verify_5DayForecast_Response</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Verify_5DayForecast_Response</property>
+  <property name="source">\Users\apple\Katalon Studio\nusatalent - tech test\Test Cases\Verify_5DayForecast_Response.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2025-05-08T00:58:28.064824Z</date>
+  <millis>1746665908064</millis>
+  <nanos>824000</nanos>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(&amp;quot;forecast weather jakarta&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">21</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.497937Z</date>
+  <millis>1746665910497</millis>
+  <nanos>937000</nanos>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/apple/Katalon Studio/nusatalent - tech test/Reports/20250508_075821/TC001 - Verify_5DayForecast_Response/20250508_075821/requests/main/forecast-w...jakarta_0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">376a27f0-e753-48c4-875a-8cc0fa4e0fc6</property>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.698232Z</date>
+  <millis>1746665910698</millis>
+  <nanos>232000</nanos>
+  <sequence>19</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.703180Z</date>
+  <millis>1746665910703</millis>
+  <nanos>180000</nanos>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(&amp;quot;forecast weather jakarta&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.705239Z</date>
+  <millis>1746665910705</millis>
+  <nanos>239000</nanos>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(response)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.717314Z</date>
+  <millis>1746665910717</millis>
+  <nanos>314000</nanos>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(response)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.717888Z</date>
+  <millis>1746665910717</millis>
+  <nanos>888000</nanos>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.742301Z</date>
+  <millis>1746665910742</millis>
+  <nanos>301000</nanos>
+  <sequence>25</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.745121Z</date>
+  <millis>1746665910745</millis>
+  <nanos>121000</nanos>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.745644Z</date>
+  <millis>1746665910745</millis>
+  <nanos>644000</nanos>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : logInfo(&amp;quot;Status code is 200 OK&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.774315Z</date>
+  <millis>1746665910774</millis>
+  <nanos>315000</nanos>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Status code is 200 OK</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.781008Z</date>
+  <millis>1746665910781</millis>
+  <nanos>8000</nanos>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : logInfo(&amp;quot;Status code is 200 OK&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.781525Z</date>
+  <millis>1746665910781</millis>
+  <nanos>525000</nanos>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(response, &amp;quot;city.name&amp;quot;, &amp;quot;Jakarta&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">25</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.915274Z</date>
+  <millis>1746665910915</millis>
+  <nanos>274000</nanos>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.917769Z</date>
+  <millis>1746665910917</millis>
+  <nanos>769000</nanos>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(response, &amp;quot;city.name&amp;quot;, &amp;quot;Jakarta&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.918575Z</date>
+  <millis>1746665910918</millis>
+  <nanos>575000</nanos>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : expectedSchema = &amp;quot;
+{
+&amp;quot;$schema&amp;quot;: &amp;quot;http://json-schema.org/draft-07/schema#&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+&amp;quot;properties&amp;quot;: {
+  &amp;quot;cod&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+  },
+  &amp;quot;message&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+  },
+  &amp;quot;cnt&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+  },
+  &amp;quot;list&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;array&amp;quot;,
+	&amp;quot;items&amp;quot;: {
+	  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+	  &amp;quot;properties&amp;quot;: {
+		&amp;quot;dt&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		},
+		&amp;quot;main&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;temp&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;feels_like&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;temp_min&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;temp_max&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;pressure&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;sea_level&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;grnd_level&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;humidity&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;temp_kf&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;temp&amp;quot;,
+			&amp;quot;feels_like&amp;quot;,
+			&amp;quot;temp_min&amp;quot;,
+			&amp;quot;temp_max&amp;quot;,
+			&amp;quot;pressure&amp;quot;,
+			&amp;quot;sea_level&amp;quot;,
+			&amp;quot;grnd_level&amp;quot;,
+			&amp;quot;humidity&amp;quot;,
+			&amp;quot;temp_kf&amp;quot;
+		  ]
+		},
+		&amp;quot;weather&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;array&amp;quot;,
+		  &amp;quot;items&amp;quot;: {
+			&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+			&amp;quot;properties&amp;quot;: {
+			  &amp;quot;id&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			  },
+			  &amp;quot;main&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			  },
+			  &amp;quot;description&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			  },
+			  &amp;quot;icon&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			  }
+			},
+			&amp;quot;required&amp;quot;: [
+			  &amp;quot;id&amp;quot;,
+			  &amp;quot;main&amp;quot;,
+			  &amp;quot;description&amp;quot;,
+			  &amp;quot;icon&amp;quot;
+			]
+		  }
+		},
+		&amp;quot;clouds&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;all&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;all&amp;quot;
+		  ]
+		},
+		&amp;quot;wind&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;speed&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;deg&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;gust&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;speed&amp;quot;,
+			&amp;quot;deg&amp;quot;,
+			&amp;quot;gust&amp;quot;
+		  ]
+		},
+		&amp;quot;visibility&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		},
+		&amp;quot;pop&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		},
+		&amp;quot;sys&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;pod&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;pod&amp;quot;
+		  ]
+		},
+		&amp;quot;dt_txt&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+		},
+		&amp;quot;rain&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;3h&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;3h&amp;quot;
+		  ]
+		}
+	  },
+	  &amp;quot;required&amp;quot;: [
+		&amp;quot;dt&amp;quot;,
+		&amp;quot;main&amp;quot;,
+		&amp;quot;weather&amp;quot;,
+		&amp;quot;clouds&amp;quot;,
+		&amp;quot;wind&amp;quot;,
+		&amp;quot;visibility&amp;quot;,
+		&amp;quot;pop&amp;quot;,
+		&amp;quot;sys&amp;quot;,
+		&amp;quot;dt_txt&amp;quot;
+	  ]
+	}
+  },
+  &amp;quot;city&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+	&amp;quot;properties&amp;quot;: {
+	  &amp;quot;id&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;name&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+	  },
+	  &amp;quot;coord&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		&amp;quot;properties&amp;quot;: {
+		  &amp;quot;lat&amp;quot;: {
+			&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		  },
+		  &amp;quot;lon&amp;quot;: {
+			&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		  }
+		},
+		&amp;quot;required&amp;quot;: [
+		  &amp;quot;lat&amp;quot;,
+		  &amp;quot;lon&amp;quot;
+		]
+	  },
+	  &amp;quot;country&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+	  },
+	  &amp;quot;population&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;timezone&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;sunrise&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;sunset&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  }
+	},
+	&amp;quot;required&amp;quot;: [
+	  &amp;quot;id&amp;quot;,
+	  &amp;quot;name&amp;quot;,
+	  &amp;quot;coord&amp;quot;,
+	  &amp;quot;country&amp;quot;,
+	  &amp;quot;population&amp;quot;,
+	  &amp;quot;timezone&amp;quot;,
+	  &amp;quot;sunrise&amp;quot;,
+	  &amp;quot;sunset&amp;quot;
+	]
+  }
+},
+&amp;quot;required&amp;quot;: [
+  &amp;quot;cod&amp;quot;,
+  &amp;quot;message&amp;quot;,
+  &amp;quot;cnt&amp;quot;,
+  &amp;quot;list&amp;quot;,
+  &amp;quot;city&amp;quot;
+]
+}
+&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">27</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.926472Z</date>
+  <millis>1746665910926</millis>
+  <nanos>472000</nanos>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : expectedSchema = &amp;quot;
+{
+&amp;quot;$schema&amp;quot;: &amp;quot;http://json-schema.org/draft-07/schema#&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+&amp;quot;properties&amp;quot;: {
+  &amp;quot;cod&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+  },
+  &amp;quot;message&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+  },
+  &amp;quot;cnt&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+  },
+  &amp;quot;list&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;array&amp;quot;,
+	&amp;quot;items&amp;quot;: {
+	  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+	  &amp;quot;properties&amp;quot;: {
+		&amp;quot;dt&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		},
+		&amp;quot;main&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;temp&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;feels_like&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;temp_min&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;temp_max&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;pressure&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;sea_level&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;grnd_level&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;humidity&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;temp_kf&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;temp&amp;quot;,
+			&amp;quot;feels_like&amp;quot;,
+			&amp;quot;temp_min&amp;quot;,
+			&amp;quot;temp_max&amp;quot;,
+			&amp;quot;pressure&amp;quot;,
+			&amp;quot;sea_level&amp;quot;,
+			&amp;quot;grnd_level&amp;quot;,
+			&amp;quot;humidity&amp;quot;,
+			&amp;quot;temp_kf&amp;quot;
+		  ]
+		},
+		&amp;quot;weather&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;array&amp;quot;,
+		  &amp;quot;items&amp;quot;: {
+			&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+			&amp;quot;properties&amp;quot;: {
+			  &amp;quot;id&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			  },
+			  &amp;quot;main&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			  },
+			  &amp;quot;description&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			  },
+			  &amp;quot;icon&amp;quot;: {
+				&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			  }
+			},
+			&amp;quot;required&amp;quot;: [
+			  &amp;quot;id&amp;quot;,
+			  &amp;quot;main&amp;quot;,
+			  &amp;quot;description&amp;quot;,
+			  &amp;quot;icon&amp;quot;
+			]
+		  }
+		},
+		&amp;quot;clouds&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;all&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;all&amp;quot;
+		  ]
+		},
+		&amp;quot;wind&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;speed&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;deg&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			},
+			&amp;quot;gust&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;speed&amp;quot;,
+			&amp;quot;deg&amp;quot;,
+			&amp;quot;gust&amp;quot;
+		  ]
+		},
+		&amp;quot;visibility&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		},
+		&amp;quot;pop&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		},
+		&amp;quot;sys&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;pod&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;pod&amp;quot;
+		  ]
+		},
+		&amp;quot;dt_txt&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+		},
+		&amp;quot;rain&amp;quot;: {
+		  &amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		  &amp;quot;properties&amp;quot;: {
+			&amp;quot;3h&amp;quot;: {
+			  &amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+			}
+		  },
+		  &amp;quot;required&amp;quot;: [
+			&amp;quot;3h&amp;quot;
+		  ]
+		}
+	  },
+	  &amp;quot;required&amp;quot;: [
+		&amp;quot;dt&amp;quot;,
+		&amp;quot;main&amp;quot;,
+		&amp;quot;weather&amp;quot;,
+		&amp;quot;clouds&amp;quot;,
+		&amp;quot;wind&amp;quot;,
+		&amp;quot;visibility&amp;quot;,
+		&amp;quot;pop&amp;quot;,
+		&amp;quot;sys&amp;quot;,
+		&amp;quot;dt_txt&amp;quot;
+	  ]
+	}
+  },
+  &amp;quot;city&amp;quot;: {
+	&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+	&amp;quot;properties&amp;quot;: {
+	  &amp;quot;id&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;name&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+	  },
+	  &amp;quot;coord&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;object&amp;quot;,
+		&amp;quot;properties&amp;quot;: {
+		  &amp;quot;lat&amp;quot;: {
+			&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		  },
+		  &amp;quot;lon&amp;quot;: {
+			&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+		  }
+		},
+		&amp;quot;required&amp;quot;: [
+		  &amp;quot;lat&amp;quot;,
+		  &amp;quot;lon&amp;quot;
+		]
+	  },
+	  &amp;quot;country&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;string&amp;quot;
+	  },
+	  &amp;quot;population&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;timezone&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;sunrise&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  },
+	  &amp;quot;sunset&amp;quot;: {
+		&amp;quot;type&amp;quot;: &amp;quot;number&amp;quot;
+	  }
+	},
+	&amp;quot;required&amp;quot;: [
+	  &amp;quot;id&amp;quot;,
+	  &amp;quot;name&amp;quot;,
+	  &amp;quot;coord&amp;quot;,
+	  &amp;quot;country&amp;quot;,
+	  &amp;quot;population&amp;quot;,
+	  &amp;quot;timezone&amp;quot;,
+	  &amp;quot;sunrise&amp;quot;,
+	  &amp;quot;sunset&amp;quot;
+	]
+  }
+},
+&amp;quot;required&amp;quot;: [
+  &amp;quot;cod&amp;quot;,
+  &amp;quot;message&amp;quot;,
+  &amp;quot;cnt&amp;quot;,
+  &amp;quot;list&amp;quot;,
+  &amp;quot;city&amp;quot;
+]
+}
+&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T00:58:30.929215Z</date>
+  <millis>1746665910929</millis>
+  <nanos>215000</nanos>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : validateJsonAgainstSchema(response, expectedSchema)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">255</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2025-05-08T00:58:31.148533Z</date>
+  <millis>1746665911148</millis>
+  <nanos>533000</nanos>
+  <sequence>40</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Validate with JSON Schema successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.ValidateJsonAgainstSchemaKeyword.validateWithJsonSchema</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-05-08T00:58:31.149145Z</date>
+  <millis>1746665911149</millis>
+  <nanos>145000</nanos>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : validateJsonAgainstSchema(response, expectedSchema)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T00:58:31.149554Z</date>
+  <millis>1746665911149</millis>
+  <nanos>554000</nanos>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Verify_5DayForecast_Response</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T00:58:31.150806Z</date>
+  <millis>1746665911150</millis>
+  <nanos>806000</nanos>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Verify_5DayForecast_Response</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2025-05-08T00:58:31.154486Z</date>
+  <millis>1746665911154</millis>
+  <nanos>486000</nanos>
+  <sequence>45</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T00:58:31.391268Z</date>
+  <millis>1746665911391</millis>
+  <nanos>268000</nanos>
+  <sequence>106</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: /Users/apple/Katalon Studio/nusatalent - tech test/Reports/20250508_075821/TC001 - Verify_5DayForecast_Response/20250508_075821...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T00:58:31.459700Z</date>
+  <millis>1746665911459</millis>
+  <nanos>700000</nanos>
+  <sequence>108</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T00:58:31.460534Z</date>
+  <millis>1746665911460</millis>
+  <nanos>534000</nanos>
+  <sequence>110</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: /Users/apple/Katalon Studio/nusatalent - tech test/Reports/20250508_075821/TC001 - Verify_5DayForecast_Response/20250508_075821...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T00:58:31.485257Z</date>
+  <millis>1746665911485</millis>
+  <nanos>257000</nanos>
+  <sequence>112</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T00:58:31.505412Z</date>
+  <millis>1746665911505</millis>
+  <nanos>412000</nanos>
+  <sequence>114</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-05-08T00:58:31.599594Z</date>
+  <millis>1746665911599</millis>
+  <nanos>594000</nanos>
+  <sequence>118</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/TC001 - Verify_5DayForecast_Response</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

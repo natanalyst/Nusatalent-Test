@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC001 - Verify_5DayForecast_Response,,,,08-05-2025 08:09:20,08-05-2025 08:09:21,1.325s,ERROR
+,,,,,,,
+Test Cases/Verify_5DayForecast_Response,,,,08-05-2025 08:09:21,08-05-2025 08:09:21,0.180s,ERROR
